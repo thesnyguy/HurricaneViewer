@@ -1,0 +1,14 @@
+#map-container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#year-select {
+  margin: 20px 0;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}

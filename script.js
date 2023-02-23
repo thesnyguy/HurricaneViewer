@@ -12,5 +12,5 @@ for (let year = startYear; year <= endYear; year++) {
 yearSelect.addEventListener("change", function() {
   let year = this.value;
   let mapUrl = `hr${year}.html`;
-  document.getElementById("map").innerHTML = `<iframe src="${mapUrl}" frameborder="0" height="1000" width="150%"></iframe>`;
+  document.getElementById("map").innerHTML = `<iframe src="${mapUrl}" frameborder="0" height="750" width="100%"></iframe>`;
 });
